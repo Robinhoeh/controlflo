@@ -66,6 +66,17 @@ if (!isPhoneCharged) {//flips truthy to falsey
 
 // ! - Swaps thruthiess and falsiness value
 
+//====================
+
+let favoritePhrase = 'hey now';//truthy
+
+if (!favoritePhrase) {//! flips condition to read falsey
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');//SO..ELSE runs
+}
+
+
 
 
 
