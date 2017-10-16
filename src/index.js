@@ -146,6 +146,12 @@ let favoritePhrase = 'Love That!';
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
 
 
+//==========Eight Ball
+
+let userName = '';
+userName !== '' ? console.log(`Hello ${userName}`)
+: console.log('Hello!');
+
 
 
 
