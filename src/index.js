@@ -153,7 +153,7 @@ userName !== '' ? console.log(`Hello ${userName}`)//if userName is not falsey, l
 : console.log('Hello!');
 
 let userQuestion = "Will I get a cool job soon?";
-let randomNumber = Math.floor( Math.random() * 8 );
+let randomNumber = Math.floor( Math.random() * 3 );
 let eightBall = '';
 
 if (randomNumber === 0) {
@@ -162,9 +162,14 @@ if (randomNumber === 0) {
 }else if (randomNumber === 1 ) {
 eightBall = 'It is decidely so';
 
+} else if (randomNumber === 2) {
+  eightBall = 'Reply hazy try again';
 }
 
-console.log(eightBall);
+//console.log(eightBall);
+
+console.log(`You wanted to know ${userQuestion}. The answer is: ${eightBall}`);
+
 
 
 
