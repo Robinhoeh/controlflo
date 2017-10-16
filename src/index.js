@@ -148,9 +148,23 @@ favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I d
 
 //==========Eight Ball
 
-let userName = '';
-userName !== '' ? console.log(`Hello ${userName}`)
+let userName = '';//falsey variable
+userName !== '' ? console.log(`Hello ${userName}`)//if userName is not falsey, log Hello
 : console.log('Hello!');
+
+let userQuestion = "Will I get a cool job soon?";
+let randomNumber = Math.floor( Math.random() * 8 );
+let eightBall = '';
+
+if (randomNumber === 0) {
+ eightBall = 'It is certain';
+  
+}else if (randomNumber === 1 ) {
+eightBall = 'It is decidely so';
+
+}
+
+console.log(eightBall);
 
 
 
